@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  description: backstage-test
+  annotations:
+    github.com/project-slug: luciansr/backstage-test
+    backstage.io/techdocs-ref: github:https://github.com/luciansr/backstage-test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: backstage-test
